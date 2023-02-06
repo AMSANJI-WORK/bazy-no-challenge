@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "target": "ES5",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["./**/*.js", "./**/*.vue", "./**/*.json", "./**/*.scss"],
+  "exclude": ["node_modules"]
+}
